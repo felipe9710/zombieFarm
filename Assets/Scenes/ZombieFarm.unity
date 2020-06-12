@@ -201,6 +201,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ThirdPersonController
       objectReference: {fileID: 0}
+    - target: {fileID: 149790, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 408730, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 3}
       propertyPath: m_LocalPosition.x
       value: 36.194
@@ -799,6 +803,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 816ee2c69da15324894accb635399104, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackDistance: 1
+  attackduration: 1
+  attackAnimation: Z_Attack
+  attackTransition: 0.1
 --- !u!195 &1763628208
 NavMeshAgent:
   m_ObjectHideFlags: 0
