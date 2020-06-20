@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class player : MonoBehaviour
 {
+
+    public Rigidbody rb;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +15,10 @@ public class player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
+        if (rb.position.y < -1)
+        {
+            FindObjectOfType<GameManager>().EndGame();
+        }
     }
 }
