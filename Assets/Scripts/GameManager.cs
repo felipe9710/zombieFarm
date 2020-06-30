@@ -5,6 +5,13 @@ public class GameManager : MonoBehaviour
 {
 
     bool GameHasEnded = false;
+
+    Animator anim;
+
+    void Awake()
+    {
+        anim = GetComponent<Animator>();       
+    }
     public void EndGame()
     {
         if (GameHasEnded == false)
