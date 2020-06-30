@@ -66,6 +66,7 @@
     <Compile Include="Assets\Modelos\Nokobot\ModernGuns_Handgun\Demo Assets\SimpleShoot.cs" />
     <Compile Include="Assets\Scripts\Colision.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\GameOverManager.cs" />
     <Compile Include="Assets\Scripts\PlayerManager.cs" />
     <Compile Include="Assets\Scripts\Spawn.cs" />
     <Compile Include="Assets\Scripts\ZombieController.cs" />
