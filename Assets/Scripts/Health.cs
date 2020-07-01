@@ -26,6 +26,8 @@ public class Health : MonoBehaviour
 
     public void Die()
     {
+        UIManager.instance.numero++;
+        UIManager.instance.UpdateKillCounter();
         gameObject.SetActive(false);
     }
 }
