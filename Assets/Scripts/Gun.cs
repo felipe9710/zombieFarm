@@ -20,6 +20,9 @@ public class Gun : MonoBehaviour
     [SerializeField]
     private ParticleSystem muzzleParticle;
 
+    [SerializeField]
+    private AudioSource gunShot;
+
     private float timer;
     // Start is called before the first frame update
     void Start()
@@ -46,6 +49,7 @@ public class Gun : MonoBehaviour
         Debug.DrawRay(firePoint.position, firePoint.forward * 100, Color.red, 2f);
 
         muzzleParticle.Play();
+        gunShot.Play();
 
         Ray ray = new Ray(firePoint.position, firePoint.forward);
         RaycastHit hitInfo;
