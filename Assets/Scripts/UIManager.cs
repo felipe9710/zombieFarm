@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
@@ -26,5 +27,13 @@ public class UIManager : MonoBehaviour
     public void UpdateKillCounter()
     {
         killCounter.text = numero.ToString();
+    }
+
+    public void Winning()
+    {
+        if (numero == 6)
+        {
+            SceneManager.LoadScene("Win", LoadSceneMode.Additive);
+        }
     }
 }

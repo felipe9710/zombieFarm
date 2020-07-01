@@ -19,13 +19,13 @@ public class GameManager : MonoBehaviour
 
             GameHasEnded = true;
             Debug.Log("Game Over");
-            Invoke("Restart", 2f);
+            SceneManager.LoadScene("GameOverScreen", LoadSceneMode.Additive);
         }
     }
 
-    void Restart()
+    /*void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
+    }*/
 
 }

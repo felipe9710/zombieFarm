@@ -4,5 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: b31786032cf2d5e4b9fc887db4a2856b
+  - enabled: 1
+    path: Assets/Scenes/ZombieFarm.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Win.unity
+    guid: 31a35ed99145a3946a66504c6ae9c94f
+  - enabled: 1
+    path: Assets/Scenes/GameOverScreen.unity
+    guid: 28aa3ad01321eb24eb4972d2e80d38d8
   m_configObjects: {}
