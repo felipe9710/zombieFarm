@@ -20,10 +20,10 @@ public class GameOverManager : MonoBehaviour
     void Update()
     {
 
-        if (health.Health <= 0)
-        {
-            anim.SetTrigger("GameOver");
-        }
+        //if (health.Health <= 0)
+        //{
+          //  anim.SetTrigger("GameOver");
+        //}
         
     }
 }
